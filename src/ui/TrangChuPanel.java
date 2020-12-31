@@ -101,13 +101,6 @@ public final class TrangChuPanel extends javax.swing.JPanel {
         img1 = new javax.swing.JLabel();
         img2 = new javax.swing.JLabel();
         img3 = new javax.swing.JLabel();
-        right = new javax.swing.JPanel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        txtGioiThieu1 = new javax.swing.JTextPane();
-        txtYeuCauPhienBan1 = new javax.swing.JTextPane();
-        Title = new javax.swing.JLabel();
-        jSeparator1 = new javax.swing.JSeparator();
 
         pnlView1.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -229,46 +222,6 @@ public final class TrangChuPanel extends javax.swing.JPanel {
 
         jPanel2.add(left, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, 500));
 
-        right.setBackground(new java.awt.Color(255, 255, 255));
-        right.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel15.setFont(new java.awt.Font("Consolas", 1, 14)); // NOI18N
-        jLabel15.setText("GIỚI THIỆU");
-        right.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, 20));
-
-        jLabel16.setFont(new java.awt.Font("Consolas", 1, 14)); // NOI18N
-        jLabel16.setText("YÊU CẦU MÔI TRƯỜNG: ");
-        right.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 160, 20));
-
-        txtGioiThieu1.setEditable(false);
-        txtGioiThieu1.setFont(new java.awt.Font("Consolas", 1, 12)); // NOI18N
-        txtGioiThieu1.setText("    Ngày nay, công nghệ thông tin ngày càng phát triển thì nhu cầu cuộc sống cũng như việc ứng dụng Công nghệ thông tin vào công việc của con người được phát triển mạnh mẽ và ngày càng đa dạng hơn, đặc biệt vấn đề quản lý đang được mọi người quan tâm và phát triển. Nhiều công nghệ sử dụng mới được áp dụng hàng ngày, cũng như đưa phần mềm vào quản lý ngày càng trực quan và sinh động hơn vời người sử dụng, nhằm phục vụ nhu cầu truyền thông của con người, hoạt động kinh doanh thiết bị công nghệ ngày càng phát triển mạnh mẽ trong xu hướng bán lẻ của các doanh nghiệp.\n\n   Hiện nay, đa số các cửa hàng thiết bị công nghệ đều chưa có phần mềm quản lý, các phương pháp quản lý đều thực hiện một cách thủ công chủ yếu bằng ghi chép sổ sách... Nhằm giảm thao tác thủ công, mang lại tính chính xác và hiệu quả cao trong công tác quản lý hoạt động kinh doanh. Với mục tiêu trên thì trọng tâm của đề tài này sẽ đi sâu nghiên cứu và phát triển phần mềm  “Quản lý cửa hàng thiết bị công nghệ” Là một đề tài mang tính thực tế và đáp ứng được nhu cầu trong công tác quản lý.Để đáp ứng được nhu cầu cho việc quản lý cửa hàng dễ dàng và thuân tiện ...,Vì vậy mà em đã chọn đề tài này để phát triển phần mềm của mình.");
-        txtGioiThieu1.setPreferredSize(new java.awt.Dimension(512, 175));
-        txtGioiThieu1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                txtGioiThieu1MouseClicked(evt);
-            }
-        });
-        right.add(txtGioiThieu1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 380, 350));
-
-        txtYeuCauPhienBan1.setEditable(false);
-        txtYeuCauPhienBan1.setFont(new java.awt.Font("Consolas", 1, 12)); // NOI18N
-        txtYeuCauPhienBan1.setText("1. Hệ điều hành bất kỳ\n2. JDK 1.8 trở lên\n3. SQL Server 2008 trở lên");
-        txtYeuCauPhienBan1.setPreferredSize(new java.awt.Dimension(512, 175));
-        txtYeuCauPhienBan1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                txtYeuCauPhienBan1MouseClicked(evt);
-            }
-        });
-        right.add(txtYeuCauPhienBan1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, 160, 50));
-
-        Title.setFont(new java.awt.Font("Consolas", 1, 14)); // NOI18N
-        Title.setText("NỘI DUNG");
-        right.add(Title, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, 20));
-        right.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 380, 10));
-
-        jPanel2.add(right, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 0, 410, 500));
-
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
@@ -282,8 +235,8 @@ public final class TrangChuPanel extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(pnlViewNhaCungCap, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pnlViewDonHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 870, Short.MAX_VALUE))
+                        .addComponent(pnlViewDonHang, javax.swing.GroupLayout.DEFAULT_SIZE, 207, Short.MAX_VALUE))
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
@@ -324,27 +277,14 @@ public final class TrangChuPanel extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtGioiThieu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtGioiThieu1MouseClicked
-        // TODO add your handling code here:
-
-    }//GEN-LAST:event_txtGioiThieu1MouseClicked
-
-    private void txtYeuCauPhienBan1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtYeuCauPhienBan1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtYeuCauPhienBan1MouseClicked
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Title;
     private javax.swing.JLabel img1;
     private javax.swing.JLabel img2;
     private javax.swing.JLabel img3;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JProgressBar jProgressBar1;
-    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JLabel lblDonHang;
     private javax.swing.JLabel lblKhachHang;
     private javax.swing.JLabel lblNCC;
@@ -363,9 +303,6 @@ public final class TrangChuPanel extends javax.swing.JPanel {
     private javax.swing.JLabel pnlViewSanPham1;
     private javax.swing.JLabel pnlViewSanPham3;
     private javax.swing.JLabel pnlViewThongKe3;
-    private javax.swing.JPanel right;
-    private javax.swing.JTextPane txtGioiThieu1;
-    private javax.swing.JTextPane txtYeuCauPhienBan1;
     // End of variables declaration//GEN-END:variables
 
     SanPhamDAO spdao = new SanPhamDAO();
